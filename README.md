@@ -1,11 +1,11 @@
 # Heartt
 # This programs draws a heart which made of a character that you write as an input.
-print('This program will make you smile.')
-print('Please enter one character')
-name=input()
-print('And now please create a name. Your name must include 5 letters')
-yourName=input() #it must be 5 letters long
-def loops(z):
+ print('This program will make you smile.')
+ print('Please enter one character')
+ name=input()
+ print('And now please create a name. Your name must include 5 letters')
+ yourName=input() #it must be 5 letters long
+ def loops(z):
     
     first_row=  (' '*12 + name*6 + ' '*3 + name*6)
     if len(name)==1:
@@ -99,8 +99,8 @@ def loops(z):
     else:
         print(' '*19+'0')
     
-loops(name)
-print(' '*5+ 'Never let anybody steal your smiles')
+ loops(name)
+ print(' '*5+ 'Never let anybody steal your smiles')
 
 
 
